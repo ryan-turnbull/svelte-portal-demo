@@ -27,7 +27,7 @@
 		setTimeout(() => {
 			session.set('ABC-123')
 			navigate(HOME, { replace: false })
-		}, 3000)
+		}, 2000)
 	}
 
 	function cancelLogin() {
@@ -67,14 +67,14 @@
 		justify-content: center;
 	}
 	.container :global(.card-svelte) {
+		width: 300px;
 		padding: 16px 32px;
 	}
 
 	form {
-		width: 300px;
 		margin: 24px 0;
 	}
-	form > button, input {
+	button, input {
 		width: 100%
 	}
 </style>
